@@ -15,7 +15,8 @@
 //Matches in decomp.me https://decomp.me/scratch/OuucG
 s32 func_800877F8(HSD_GObj* fighterObj, s32 arg1)
 {
-    if (((Fighter*) fighterObj->user_data)->input.x65C_heldInputs & arg1) {
+    Fighter* fp = getFighter(fighterObj);
+    if (fp->input.x65C_heldInputs & arg1) {
         return 1;
     } else {
         return 0;
