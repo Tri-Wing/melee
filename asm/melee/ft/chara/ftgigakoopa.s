@@ -79,7 +79,7 @@ as_table_gkoopa:
     .4byte 0xFFFFFFFF
     .4byte 0x00340012
     .4byte 0x13000000
-    .4byte lbl_801339AC
+    .4byte func_801339AC
     .4byte lbl_80133E4C
     .4byte lbl_801342C8
     .4byte lbl_80134428
@@ -87,7 +87,7 @@ as_table_gkoopa:
     .4byte 0x00000130
     .4byte 0x00340012
     .4byte 0x13000000
-    .4byte lbl_801339B4
+    .4byte func_801339B4
     .4byte NULL
     .4byte lbl_80134308
     .4byte lbl_80134478
@@ -127,7 +127,7 @@ as_table_gkoopa:
     .4byte 0xFFFFFFFF
     .4byte 0x00340012
     .4byte 0x13000000
-    .4byte lbl_801339B0
+    .4byte func_801339B0
     .4byte lbl_80134038
     .4byte lbl_801342E8
     .4byte lbl_80134450
