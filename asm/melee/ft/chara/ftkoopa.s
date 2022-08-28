@@ -3024,7 +3024,7 @@ lbl_8013623C:
     .balign 8
 .global as_table_koopa
 as_table_koopa:
-    .4byte 0x00000127
+    .int 295
     .4byte 0x00340011
     .4byte 0x12000000
     .4byte lbl_80134F48
@@ -3032,7 +3032,7 @@ as_table_koopa:
     .4byte lbl_80135438
     .4byte lbl_801354F8
     .4byte func_800761C8
-    .4byte 0x00000128
+    .int 296
     .4byte 0x003C0011
     .4byte 0x12000000
     .4byte lbl_80134F9C
@@ -3040,7 +3040,7 @@ as_table_koopa:
     .4byte lbl_80135458
     .4byte lbl_80135564
     .4byte func_800761C8
-    .4byte 0x00000129
+    .int 297
     .4byte 0x00340011
     .4byte 0x12000000
     .4byte lbl_80135040
@@ -3048,7 +3048,7 @@ as_table_koopa:
     .4byte lbl_80135478
     .4byte lbl_801355D0
     .4byte func_800761C8
-    .4byte 0x0000012A
+    .int 298
     .4byte 0x00340411
     .4byte 0x12000000
     .4byte lbl_8013507C
@@ -3056,7 +3056,7 @@ as_table_koopa:
     .4byte lbl_80135498
     .4byte lbl_8013563C
     .4byte func_800761C8
-    .4byte 0x0000012B
+    .int 299
     .4byte 0x003C0411
     .4byte 0x12000000
     .4byte lbl_801350D0
@@ -3064,7 +3064,7 @@ as_table_koopa:
     .4byte lbl_801354B8
     .4byte lbl_801356A8
     .4byte func_800761C8
-    .4byte 0x0000012C
+    .int 300
     .4byte 0x00340411
     .4byte 0x12000000
     .4byte lbl_80135174
@@ -3072,7 +3072,7 @@ as_table_koopa:
     .4byte lbl_801354D8
     .4byte lbl_80135714
     .4byte func_800761C8
-    .4byte 0x0000012D
+    .int 301
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte func_80133654
@@ -3080,7 +3080,7 @@ as_table_koopa:
     .4byte lbl_80134224
     .4byte lbl_80134388
     .4byte func_800761C8
-    .4byte 0x0000012E
+    .int 302
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte func_801336CC
@@ -3088,7 +3088,7 @@ as_table_koopa:
     .4byte lbl_80134288
     .4byte lbl_801343D8
     .4byte func_800761C8
-    .4byte 0x0000012F
+    .int 303
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte func_801336CC
@@ -3096,7 +3096,7 @@ as_table_koopa:
     .4byte lbl_80134288
     .4byte lbl_801343D8
     .4byte func_800761C8
-    .4byte 0x0000012E
+    .int 302
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte lbl_801339AC
@@ -3104,7 +3104,7 @@ as_table_koopa:
     .4byte lbl_801342C8
     .4byte lbl_80134428
     .4byte func_800761C8
-    .4byte 0x00000130
+    .int 304
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte lbl_801339B4
@@ -3112,7 +3112,7 @@ as_table_koopa:
     .4byte lbl_80134308
     .4byte lbl_80134478
     .4byte func_800761C8
-    .4byte 0x00000131
+    .int 305
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte lbl_80133A90
@@ -3120,7 +3120,7 @@ as_table_koopa:
     .4byte lbl_80134328
     .4byte lbl_801344A0
     .4byte func_800761C8
-    .4byte 0x00000132
+    .int 306
     .4byte 0x00340412
     .4byte 0x13000000
     .4byte func_80133690
@@ -3128,7 +3128,7 @@ as_table_koopa:
     .4byte lbl_80134244
     .4byte lbl_801343B0
     .4byte func_800761C8
-    .4byte 0x00000133
+    .int 307
     .4byte 0x00340412
     .4byte 0x13000000
     .4byte lbl_8013383C
@@ -3136,7 +3136,7 @@ as_table_koopa:
     .4byte lbl_801342A8
     .4byte lbl_80134400
     .4byte func_800761C8
-    .4byte 0x00000134
+    .int 308
     .4byte 0x00340412
     .4byte 0x13000000
     .4byte lbl_8013383C
@@ -3144,7 +3144,7 @@ as_table_koopa:
     .4byte lbl_801342A8
     .4byte lbl_80134400
     .4byte func_800761C8
-    .4byte 0x00000133
+    .int 307
     .4byte 0x00340012
     .4byte 0x13000000
     .4byte lbl_801339B0
@@ -3152,7 +3152,7 @@ as_table_koopa:
     .4byte lbl_801342E8
     .4byte lbl_80134450
     .4byte func_800761C8
-    .4byte 0x00000135
+    .int 309
     .4byte 0x00340412
     .4byte 0x13000000
     .4byte lbl_80133AD4
@@ -3160,7 +3160,7 @@ as_table_koopa:
     .4byte lbl_80134348
     .4byte lbl_801344C8
     .4byte func_800761C8
-    .4byte 0x00000136
+    .int 310
     .4byte 0x00340412
     .4byte 0x13000000
     .4byte lbl_80133BB0
@@ -3168,7 +3168,7 @@ as_table_koopa:
     .4byte lbl_80134368
     .4byte lbl_801344F0
     .4byte func_800761C8
-    .4byte 0x00000137
+    .int 311
     .4byte 0x00340213
     .4byte 0x14000000
     .4byte func_80135C08
@@ -3176,7 +3176,7 @@ as_table_koopa:
     .4byte lbl_80135D80
     .4byte lbl_80135E4C
     .4byte func_800761C8
-    .4byte 0x00000138
+    .int 312
     .4byte 0x00340613
     .4byte 0x14000000
     .4byte lbl_80135C60
@@ -3184,7 +3184,7 @@ as_table_koopa:
     .4byte lbl_80135DE0
     .4byte lbl_80135F6C
     .4byte func_800761C8
-    .4byte 0x00000139
+    .int 313
     .4byte 0x00340214
     .4byte 0x15000000
     .4byte lbl_8013474C
@@ -3192,7 +3192,7 @@ as_table_koopa:
     .4byte lbl_801347C4
     .4byte lbl_801348A0
     .4byte func_800761C8
-    .4byte 0x0000013A
+    .int 314
     .4byte 0x00340614
     .4byte 0x15000000
     .4byte lbl_80134788
@@ -3200,7 +3200,7 @@ as_table_koopa:
     .4byte lbl_80134804
     .4byte func_801348C0
     .4byte func_800761C8
-    .4byte 0x0000013B
+    .int 315
     .4byte 0x00340214
     .4byte 0x15000000
     .4byte lbl_801349C4
@@ -3323,22 +3323,22 @@ lbl_803CF2A0:
     .4byte NULL
     .4byte NULL
     .4byte NULL
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
     .4byte NULL
     .4byte NULL
     .4byte NULL
@@ -3347,14 +3347,14 @@ lbl_803CF2A0:
     .4byte NULL
     .4byte NULL
     .4byte NULL
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
     .4byte NULL
     .4byte NULL
     .4byte NULL
@@ -3363,84 +3363,82 @@ lbl_803CF2A0:
     .4byte NULL
     .4byte NULL
     .4byte NULL
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000003
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000001
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
-    .4byte 0x00000002
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 3
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 1
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
+    .int 2
 
 
 .section .sdata2
 .global lbl_804D9AD0
 lbl_804D9AD0:
-	.4byte 0x43300000
-	.4byte 0x80000000
+	.double 4503601774854144.0
 .global lbl_804D9AD8
 lbl_804D9AD8:
-	.4byte 0x00000000
+	.float 0.0
 .global lbl_804D9ADC
 lbl_804D9ADC:
-	.4byte 0x3F800000
+	.float 1.0
 .global lbl_804D9AE0
 lbl_804D9AE0:
-	.4byte 0x00000000
+	.float 0.0
 .global lbl_804D9AE4
 lbl_804D9AE4:
-	.4byte 0x3F800000
+	.float 1.0
 .global lbl_804D9AE8
 lbl_804D9AE8:
-	.4byte 0x41F00000
-	.4byte 0x00000000
+	.double 4294967296.0
 .global lbl_804D9AF0
 lbl_804D9AF0:
-	.4byte 0x3EAAA64C
+	.float 0.33329999446868896
 .global lbl_804D9AF4
 lbl_804D9AF4:
-	.4byte 0x3F2AA64C
+	.float 0.6665999889373779
 .global lbl_804D9AF8
 lbl_804D9AF8:
-	.4byte 0x00000000
+	.float 0.0
 .global lbl_804D9AFC
 lbl_804D9AFC:
-	.4byte 0x3F800000
+	.float 1.0
 .global lbl_804D9B00
 lbl_804D9B00:
-	.4byte 0x00000000
+	.float 0.0
 .global lbl_804D9B04
 lbl_804D9B04:
-	.4byte 0x3F800000
+	.float 1.0
