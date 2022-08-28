@@ -3055,15 +3055,12 @@ lbl_803CF2A0:
 
 
 .section .sdata2
-.global lbl_804D9AD0
-lbl_804D9AD0:
-	.double 4503601774854144.0
-.global lbl_804D9AD8
-lbl_804D9AD8:
-	.float 0.0
-.global lbl_804D9ADC
-lbl_804D9ADC:
-	.float 1.0
+
+.set ftkoopa_c_sdata2_start, lbl_804D9AE0 - 0x4 * 6
+.set lbl_804D9AD0, ftkoopa_c_sdata2_start + 0x4 * 2
+.set lbl_804D9AD8, ftkoopa_c_sdata2_start + 0x4 * 4
+.set lbl_804D9ADC, ftkoopa_c_sdata2_start + 0x4 * 5
+
 .global lbl_804D9AE0
 lbl_804D9AE0:
 	.float 0.0
