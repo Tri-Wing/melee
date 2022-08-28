@@ -452,3 +452,53 @@ void func_801336CC(HSD_GObj* fighterObj)
         func_8007E2F4(fp, 0x1FF);
     }
 }
+
+inline void unk_koopa_inline1(HSD_GObj* fighterObj)
+{
+    Fighter* fp;
+    f32 temp_f1;
+    f32 temp_f1_2;
+    fp = fighterObj->user_data;
+    if ((fp->x2344_stateVar2_s32) != 0) {
+        temp_f1 = lbl_804D9AD8;
+        Fighter_ActionStateChange_800693AC(fighterObj, 0x163, 0x80, (void*) 0, temp_f1, lbl_804D9ADC, temp_f1);
+    } else {
+        temp_f1_2 = lbl_804D9AD8;
+        Fighter_ActionStateChange_800693AC(fighterObj, 0x162, 0, (void*) 0, temp_f1_2, lbl_804D9ADC, temp_f1_2);
+    }
+    fp->x2222_flag.bits.b2 = 1;
+    func_8007E2F4(fp, 0x1FF);
+    func_8007E2FC(fighterObj);
+    fp->x2340_stateVar1 = 0;
+    fp->x2200_ftcmd_var0 = 0;
+}
+
+void lbl_8013383C(HSD_GObj* fighterObj)
+{
+    f32 temp_f1;
+    f32 temp_f1_2;
+    f32 filler[2];
+    Fighter* fp_temp2;
+    Fighter* fp;
+    ftKoopaAttributes* koopaAttr;
+    fp = fighterObj->user_data;
+    koopaAttr = (ftKoopaAttributes*) fp->x2D4_specialAttributes;
+    if (((fp->x2200_ftcmd_var0) != 0U) && ((fp->x2344_stateVar2_s32) != 0)) {
+        func_8007ABD0(fp->x914, koopaAttr->x2C, fighterObj);
+        fp->x2200_ftcmd_var0 = 0U;
+    }
+    if (ftAnim_IsFramesRemaining(fighterObj) == 0) {
+        if (0 != (fp->x2340_stateVar1)) {
+            fp->x2344_stateVar2_s32 = 1;
+            unk_koopa_inline1(fighterObj);
+            func_800BCAF4(fp->x1A58_interactedFighter);
+            return;
+        }
+        fp_temp2 = fighterObj->user_data;
+        Fighter_ActionStateChange_800693AC(fighterObj, 0x164, 0x80080, 0, fp_temp2->x894_currentAnimFrame, lbl_804D9ADC, lbl_804D9AD8);
+        func_8006F0FC(fighterObj, lbl_804D9AD8);
+        fp_temp2->x2340_stateVar1 = 0;
+        fp_temp2->x2200_ftcmd_var0 = 0;
+        func_8007E2F4(fp_temp2, 0x1FF);
+    }
+}
