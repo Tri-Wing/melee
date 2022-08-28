@@ -547,3 +547,47 @@ void func_801339B4(HSD_GObj* fighterObj, f32 unused1, f32 unused2, f32 unused3)
         func_8008A2BC(fighterObj);
     }
 }
+
+void func_80133A90(HSD_GObj* fighterObj, f32 unused0, f32 unused1)
+{
+    func_80132E30(fighterObj);
+    if (ftAnim_IsFramesRemaining(fighterObj) == 0) {
+        func_8008A2BC(fighterObj);
+    }
+}
+
+void lbl_80133AD4(HSD_GObj* fighterObj, f32 unused1, f32 unused2, f32 unused3)
+{
+    HSD_GObj* temp_fighterObj;
+    HSD_GObj* interactedFighter;
+    s32 var_r0;
+    s32 var_r3;
+    Fighter* fp = fighterObj->user_data;
+
+    fp->x2200_ftcmd_var0 = fp->x2200_ftcmd_var0;
+
+    if (fp->x2210_ThrowFlags.b4) {
+        fp->x2210_ThrowFlags.b4 = 0;
+        var_r0 = 1;
+    } else {
+        var_r0 = 0;
+    }
+    if (var_r0 != 0) {
+        fp->x2C_facing_direction = -fp->x2C_facing_direction;
+        fp->x234C_stateVar4 = 1;
+    }
+    if (fp->x2200_ftcmd_var0 != 0) {
+        interactedFighter = fp->x1A58_interactedFighter;
+        temp_fighterObj = interactedFighter;
+        if (interactedFighter != 0) {
+            func_8007E2F4(fp, 0);
+            func_800DE2A8(fighterObj, interactedFighter);
+            func_800DE7C0(temp_fighterObj, 0, 0);
+            fp->x2200_ftcmd_var0 = 0;
+        }
+    }
+    if (ftAnim_IsFramesRemaining(fighterObj) == 0) {
+        func_800CC730(fighterObj);
+    }
+}
+

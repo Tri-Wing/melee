@@ -95,7 +95,7 @@ as_table_gkoopa:
     .4byte 0x00000131
     .4byte 0x00340012
     .4byte 0x13000000
-    .4byte lbl_80133A90
+    .4byte func_80133A90
     .4byte NULL
     .4byte lbl_80134328
     .4byte lbl_801344A0
