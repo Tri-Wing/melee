@@ -591,3 +591,11 @@ void lbl_80133AD4(HSD_GObj* fighterObj, f32 unused1, f32 unused2, f32 unused3)
     }
 }
 
+void lbl_80133BB0(HSD_GObj* fighterObj, f32 unused0, f32 unused1)
+{
+    func_80132E30(fighterObj);
+    if (ftAnim_IsFramesRemaining(fighterObj) == 0) {
+        func_800CC730(fighterObj);
+    }
+}
+
